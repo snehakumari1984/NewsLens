@@ -1,8 +1,9 @@
 # 🔎 NewsLens AI – AI-Powered News Credibility Analysis System
 
-\<p align="center">   \<strong>Detecting Potentially Misleading News Using Natural Language Processing and Machine Learning\</strong> \</p>
+Detecting Potentially Misleading News Using Natural Language Processing and Machine Learning
 
-\<p align="center">   🚀 \<a href="[https://newslens-ne6cdpjqz6t62nfbpxbdoc.streamlit.app/](https://newslens-ne6cdpjqz6t62nfbpxbdoc.streamlit.app/)">\<strong>Live Demo\</strong>\</a> |   💻 \<a href="[https://github.com/snehakumari1984/NewsLens](https://github.com/snehakumari1984/NewsLens)">\<strong>GitHub Repository\</strong>\</a> \</p>
+https://newslens-ne6cdpjqz6t62nfbpxbdoc.streamlit.app/  
+https://github.com/snehakumari1984/NewsLens
 
 ---
 
