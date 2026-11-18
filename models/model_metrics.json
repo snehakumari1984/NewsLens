@@ -1,0 +1,294 @@
+{
+    "dataset_name": "fauxNeuz/RealFakeNews",
+    "dataset_license": "CC BY-NC-SA 4.0",
+    "sample_size_used": 24568,
+    "train_samples": 19654,
+    "test_samples": 4914,
+    "vocabulary_size": 10000,
+    "selected_model": "Logistic Regression",
+    "evaluation_metrics": {
+        "accuracy": 0.9212,
+        "precision": 0.9235,
+        "recall": 0.9218,
+        "f1_score": 0.9212,
+        "confusion_matrix": {
+            "true_real": 2325,
+            "false_fake": 97,
+            "false_real": 290,
+            "true_fake": 2202
+        },
+        "classification_report": {
+            "REAL": {
+                "precision": 0.8891013384321224,
+                "recall": 0.9599504541701074,
+                "f1-score": 0.9231685527099464,
+                "support": 2422.0
+            },
+            "FAKE": {
+                "precision": 0.9578077424967377,
+                "recall": 0.8836276083467095,
+                "f1-score": 0.9192235441452724,
+                "support": 2492.0
+            },
+            "accuracy": 0.9212454212454212,
+            "macro avg": {
+                "precision": 0.9234545404644301,
+                "recall": 0.9217890312584085,
+                "f1-score": 0.9211960484276094,
+                "support": 4914.0
+            },
+            "weighted avg": {
+                "precision": 0.9239439023167421,
+                "recall": 0.9212454212454212,
+                "f1-score": 0.921167950076009,
+                "support": 4914.0
+            }
+        }
+    },
+    "model_comparison": [
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.9212,
+            "precision": 0.9235,
+            "recall": 0.9218,
+            "f1_score": 0.9212,
+            "train_time_sec": 0.37,
+            "confusion_matrix": [
+                [
+                    2325,
+                    97
+                ],
+                [
+                    290,
+                    2202
+                ]
+            ]
+        },
+        {
+            "model": "Multinomial Naive Bayes",
+            "accuracy": 0.8734,
+            "precision": 0.8739,
+            "recall": 0.8737,
+            "f1_score": 0.8734,
+            "train_time_sec": 0.03,
+            "confusion_matrix": [
+                [
+                    2163,
+                    259
+                ],
+                [
+                    363,
+                    2129
+                ]
+            ]
+        }
+    ],
+    "top_features": {
+        "FAKE": [
+            {
+                "word": "reuter",
+                "weight": 16.0518
+            },
+            {
+                "word": "said",
+                "weight": 10.3768
+            },
+            {
+                "word": "fact check",
+                "weight": 8.1522
+            },
+            {
+                "word": "fake",
+                "weight": 7.5257
+            },
+            {
+                "word": "video",
+                "weight": 6.4087
+            },
+            {
+                "word": "viral",
+                "weight": 6.0028
+            },
+            {
+                "word": "fact",
+                "weight": 5.5094
+            },
+            {
+                "word": "washington reuter",
+                "weight": 5.472
+            },
+            {
+                "word": "photo",
+                "weight": 5.2928
+            },
+            {
+                "word": "share",
+                "weight": 5.1234
+            },
+            {
+                "word": "check",
+                "weight": 4.9678
+            },
+            {
+                "word": "fals",
+                "weight": 4.7097
+            },
+            {
+                "word": "coronaviru",
+                "weight": 4.3207
+            },
+            {
+                "word": "pictur",
+                "weight": 4.1809
+            },
+            {
+                "word": "truth",
+                "weight": 3.978
+            },
+            {
+                "word": "factcheck",
+                "weight": 3.7165
+            },
+            {
+                "word": "presid donald",
+                "weight": 3.4702
+            },
+            {
+                "word": "claim",
+                "weight": 3.3021
+            },
+            {
+                "word": "washington",
+                "weight": 3.2769
+            },
+            {
+                "word": "govern",
+                "weight": 3.1451
+            },
+            {
+                "word": "wednesday",
+                "weight": 3.0191
+            },
+            {
+                "word": "misinform",
+                "weight": 2.999
+            },
+            {
+                "word": "thursday",
+                "weight": 2.9781
+            },
+            {
+                "word": "viru",
+                "weight": 2.9592
+            },
+            {
+                "word": "photoshop",
+                "weight": 2.856
+            }
+        ],
+        "REAL": [
+            {
+                "word": "via",
+                "weight": 7.2074
+            },
+            {
+                "word": "featur imag",
+                "weight": 4.0122
+            },
+            {
+                "word": "featur",
+                "weight": 3.5101
+            },
+            {
+                "word": "imag via",
+                "weight": 3.3943
+            },
+            {
+                "word": "com",
+                "weight": 3.2461
+            },
+            {
+                "word": "read",
+                "weight": 3.0897
+            },
+            {
+                "word": "like",
+                "weight": 3.0598
+            },
+            {
+                "word": "getti",
+                "weight": 2.7774
+            },
+            {
+                "word": "even",
+                "weight": 2.754
+            },
+            {
+                "word": "gop",
+                "weight": 2.7505
+            },
+            {
+                "word": "wire",
+                "weight": 2.7436
+            },
+            {
+                "word": "twitter com",
+                "weight": 2.7269
+            },
+            {
+                "word": "pic twitter",
+                "weight": 2.7133
+            },
+            {
+                "word": "getti imag",
+                "weight": 2.7049
+            },
+            {
+                "word": "american",
+                "weight": 2.6687
+            },
+            {
+                "word": "hillari",
+                "weight": 2.5959
+            },
+            {
+                "word": "presid obama",
+                "weight": 2.5571
+            },
+            {
+                "word": "centr",
+                "weight": 2.5078
+            },
+            {
+                "word": "book",
+                "weight": 2.396
+            },
+            {
+                "word": "america",
+                "weight": 2.3903
+            },
+            {
+                "word": "daili",
+                "weight": 2.3219
+            },
+            {
+                "word": "fir",
+                "weight": 2.3042
+            },
+            {
+                "word": "plea",
+                "weight": 2.2773
+            },
+            {
+                "word": "obama",
+                "weight": 2.2517
+            },
+            {
+                "word": "cnn",
+                "weight": 2.1344
+            }
+        ]
+    },
+    "training_duration_seconds": 85.08,
+    "timestamp": "2026-11-18 20:00:30"
+}

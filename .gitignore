@@ -1,0 +1,25 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environments
+venv/
+env/
+.env
+.venv/
+ENV/
+
+# Streamlit logs and cache
+.streamlit/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Large dataset raw files (optional to keep git repo light)
+# data/*.csv
+# !data/sample_news.csv
+data/news.csv
